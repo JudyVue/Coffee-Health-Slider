@@ -11,7 +11,10 @@ function Drink (opts) {
 
 Drink.prototype.toHtml = function() {
   var $source = $('#drink-template').html();
+  console.log($source);
   var template = Handlebars.compile($source);
+  console.log(template);
+  console.log(this);
   return template(this);
 };
 
@@ -19,6 +22,7 @@ ourLocalData.forEach(function(e){
   drinks.push(new Drink(e));
 });
 
-ourLocalData.forEach(function(a){
+drinks.forEach(function(a){
+  console.log(a);
   $('#coffeeDrinks').append(a.toHtml());
 });
