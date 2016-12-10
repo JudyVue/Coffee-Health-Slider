@@ -2,41 +2,51 @@
   {
     "name": "Americano",
     "rating": "1",
+    "mood": "Get Shit Done",
   },
   {
     "name": "Machiatto",
     "rating": "2",
+    "mood:" "Feeling Fancy"
   },
   {
     "name": "Nonfat Latte",
     "rating": "3",
+    "mood": "Just got off yoga",
   },
   {
     "name": "Latte",
     "rating": "4",
+    "mood": "First Date",
   },
   {
-    "name": "Latte with flavors",
+    "name": "Pumpkin Spice Latte",
     "rating": "5",
+    "mood": "Basic Bitch",
   },
   {
     "name": "Mocha",
     "rating": "6",
+    "mood": "Time of the Month",
   },
   {
     "name": "Mocha with whip",
     "rating": "7",
+    "mood": "Treat yo' self",
   },
   {
-    "name": "Mocha with flavor",
+    "name": "Peppermint mocha",
     "rating": "8",
+    "mood": "Getting ready for the holidays",
   },
   {
     "name": "Hot chocolate",
     "rating": "9",
+    "mood": "Can't handle my coffee",
   },
   {
     "name": "Frappucino",
     "rating": "10",
+    "mood": "Summer lovin'",
   },
 ]
