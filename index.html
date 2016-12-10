@@ -5,17 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/coffee.css">
     <title>Coffee Mood Finder</title>
+    <script id="drink-template" type="text/x-handlebars-template">
+      <article class="clearfix" data-name="{{name}}" data-mood="{{mood}}" data-calories="{{calories}}" data-caffeine="{{caffeine}}">
+          <ul>
+            <li>
+              <h1>{{name}}</h1>
+            </li>
+            <li>
+              {{rating}}
+            </li>
+            <li>
+              {{mood}}
+            </li>
+            <li>
+              {{calories}}
+            </li>
+            <li>
+              {{caffeine}}
+            </li>
+          </ul>
+      </article>
+    </script>
   </head>
   <body>
 
     <h1>Hello World Test</h1>
 
-    <canvas>Chart goes here when we make it</canvas>
+    <!-- <canvas>Chart goes here when we make it</canvas> -->
+    <section id="coffeeDrinks">
 
+    </section>
 
   <!-- third party CDN scripts - jQuery, Handlebars, Chart.js -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js" integrity="sha256-RASNMNlmRtIreeznffYMDUxBXcMRjijEaaGF/gxT6vw=" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js" integrity="sha256-RASNMNlmRtIreeznffYMDUxBXcMRjijEaaGF/gxT6vw=" crossorigin="anonymous"></script> -->
+  <script src="model/myData.js"></script>
+  <script src="model/drinks.js"></script>
   </body>
 </html>
