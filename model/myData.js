@@ -1,14 +1,14 @@
 var ourLocalData = [
   {
     name: "Americano",
-    rating: "1",
+    rating: "2",
     mood: "Get Shit Done",
     calories: "15",
     caffeine: "225",
   },
   {
     name: "Caramel Machiatto",
-    rating: "2",
+    rating: "5",
     mood: "Feeling Fancy",
     calories: "250",
     caffeine: "150",
@@ -22,7 +22,7 @@ var ourLocalData = [
   },
   {
     name: "Pumpkin Spice Latte",
-    rating: "5",
+    rating: "7",
     mood: "Basic Bitch",
     calories: "380",
     caffeine: "150",
@@ -43,7 +43,7 @@ var ourLocalData = [
   },
   {
     name: "Frappucino",
-    rating: "10",
+    rating: "8",
     mood: "Fluffy Unicorn'",
     calories: "430",
     caffeine: "95",
@@ -61,5 +61,12 @@ var ourLocalData = [
     mood: "Refreshing Sweet'",
     calories: "450",
     caffeine: "0",
+  },
+  {
+    name: "Cappuccino",
+    rating: "3",
+    mood: "Fluffy cloud pillows",
+    calories: "120",
+    caffeine: "154",
   },
 ];
