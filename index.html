@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/coffee.css">
     <title>Coffee Mood Finder</title>
+    <script id="drink-template" type="text/x-handlebars-template">
+      <article class="clearfix" data-name="{{name}}" data-mood="{{mood}}" data-calories="{{calories}}" data-caffeine="{{caffeine}}">
+        <section>
+          <ul>
+            <li>
+              <h1>{{name}}</h1>
+            </li>
+            <li>
+              {{mood}}
+            </li>
+            <li>
+              {{calories}}
+            </li>
+            <li>
+              {{caffeine}}
+            </li>
+          </ul>
+          
+        </section>
+      </article>
+    </script>
   </head>
   <body>
 
