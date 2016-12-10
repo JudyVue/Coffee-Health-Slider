@@ -68,3 +68,47 @@ H1 {
 		stroke-dashoffset: 0;
 	}
 }
+
+#drink-1 {
+  background-color: #C10000;
+}
+
+#drink-2 {
+  background-color: #916953;
+}
+
+#drink-3 {
+  background-color: #00701d;
+}
+
+#drink-4 {
+  background-color: #ffcfd2;
+}
+
+#drink-5 {
+  background-color: #17bfb5;
+}
+
+#drink-6 {
+  background-color: white;
+}
+
+#drink-7 {
+  background-color: #ff6600;
+}
+
+#drink-8 {
+  background-color: #ffd014;
+}
+
+#drink-9 {
+  background-color: #8c046a;
+}
+
+#drink-10 {
+  background-color: #ff2ecc;
+}
+
+li {
+  list-style-type: none;
+}
