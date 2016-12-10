@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Americano",
+    "rating": "1",
+  },
+  {
+    "name": "Machiatto",
+    "rating": "2",
+  },
+  {
+    "name": "Nonfat Latte",
+    "rating": "3",
+  },
+  {
+    "name": "Latte",
+    "rating": "4",
+  },
+  {
+    "name": "Latte with flavors",
+    "rating": "5",
+  },
+  {
+    "name": "Mocha",
+    "rating": "6",
+  },
+  {
+    "name": "Mocha with whip",
+    "rating": "7",
+  },
+  {
+    "name": "Mocha with flavor",
+    "rating": "8",
+  },
+  {
+    "name": "Hot chocolate",
+    "rating": "9",
+  },
+  {
+    "name": "Frappucino",
+    "rating": "10",
+  },
+]
