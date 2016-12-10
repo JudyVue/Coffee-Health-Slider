@@ -7,10 +7,13 @@
 
     <title>Coffee Mood Finder</title>
     <script id="drink-template" type="text/x-handlebars-template">
-      <article class="clearfix" data-name="{{name}}" data-mood="{{mood}}" data-calories="{{calories}}" data-caffeine="{{caffeine}}">
+      <div class="drink-flip">
+      <article class="clearfix, front" data-name="{{name}}" data-mood="{{mood}}" data-calories="{{calories}}" data-caffeine="{{caffeine}}">
+        <div class="front">
           <ul>
             <li>
               <h1>{{name}}</h1>
+              Mood: {{mood}}
             </li>
             <li>
               Rating: {{rating}}
@@ -25,7 +28,13 @@
               Caffeine(mg): {{caffeine}}
             </li>
           </ul>
+        </div>
+        <div class="back"></div>
       </article>
+
+
+
+    </div>
     </script>
   </head>
   <body>
@@ -38,15 +47,23 @@
     </section>
 
   <!-- third party CDN scripts - Chart.js, jQuery, Handlebars -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js" integrity="sha256-RASNMNlmRtIreeznffYMDUxBXcMRjijEaaGF/gxT6vw=" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js" integrity="sha256-RASNMNlmRtIreeznffYMDUxBXcMRjijEaaGF/gxT6vw=" crossorigin="anonymous"></script> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
 
 
   <!-- scripts of js files -->
-  <script src="view/chart-view.js"></script>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js" integrity="sha256-RASNMNlmRtIreeznffYMDUxBXcMRjijEaaGF/gxT6vw=" crossorigin="anonymous"></script> -->
+  <!-- <script src="view/chart-view.js"></script> -->
+
   <script src="model/myData.js"></script>
   <script src="model/drinks.js"></script>
+  <script type="text/javascript">
+  $(function(){
+    $(".drink-flip").flip({
+      trigger: "hover"
+    });
+  });
+  </script>
   </body>
 </html>

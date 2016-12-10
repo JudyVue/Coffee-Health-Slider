@@ -2,7 +2,18 @@ h1 {
   color: red;
 }
 
-canvas{
-  border: dotted 2px orange;
-  width: 100%;
+
+li {
+  margin-bottom: 50%;
+  padding: 20%;
+  display: block;
+}
+
+.back {
+  border: solid 2px orange;
+}
+
+
+.drink-flip {
+  display: list-item;
 }

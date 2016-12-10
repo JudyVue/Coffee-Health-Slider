@@ -23,6 +23,11 @@ ourLocalData.forEach(function(e){
 });
 
 drinks.forEach(function(a){
-  console.log(a);
   $('#coffeeDrinks').append(a.toHtml());
 });
+
+// drinks.forEach(function(){
+//   $('.drink-flip').flip({
+//     trigger: 'click',
+//   });
+// });
