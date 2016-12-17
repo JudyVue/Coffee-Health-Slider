@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JudyVue/Coffee-Health-Slider/issues"
   },
-  "homepage": "https://github.com/JudyVue/Coffee-Health-Slider#readme"
+  "homepage": "https://github.com/JudyVue/Coffee-Health-Slider#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
