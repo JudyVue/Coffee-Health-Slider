@@ -20,7 +20,6 @@ $(function() {
       title: {
         text: 'Your Mood On a Scale of 1-10 According to How Much Sugar You Need <br></br><i>The less sugar you need, the lower your mood rating</i>',
       },
-      max: 12,
 
     },
 
@@ -32,7 +31,6 @@ $(function() {
         format: '{value} calories',
       },
       min: 0,
-      max: 500,
     },
 
     series: [{
@@ -107,16 +105,6 @@ $(function() {
       useHTML: true,
       headerFormat: '<h3>{point.key}</h3>',
       pointFormat: '<strong>Mood</strong>: {point.x}<br></br><strong>Calories</strong>: {point.y}',
-    },
-    plotOptions: {
-      series: {
-        dataLabels: {
-          aligh: 'right',
-          enabled: true,
-          format: '{point.name}',
-          y: -10,
-        },
-      },
     },
   });
 });
